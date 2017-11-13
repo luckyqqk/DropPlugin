@@ -1,0 +1,137 @@
+{
+  "1001": {
+    "description": "两件全掉",
+    "allDrop": 1,
+    "dropNum": 1,
+    "repeat": 1,
+    "isGroup": 0,
+    "out": [
+      {
+        "outId": "10001",
+        "outNum": 80,
+        "percent": 0
+      },
+      {
+        "outId": "9001",
+        "outNum": 6,
+        "percent": 0
+      }
+    ]
+  },
+  "1002": {
+    "description": "7件选掉2件",
+    "allDrop": 0,
+    "dropNum": 2,
+    "repeat": 0,
+    "isGroup": 0,
+    "out": [
+      {
+        "outId": "1001",
+        "outNum": 1,
+        "percent": 20
+      },
+      {
+        "outId": "2001",
+        "outNum": 1,
+        "percent": 20
+      },
+      {
+        "outId": "2005",
+        "outNum": 1,
+        "percent": 20
+      },
+      {
+        "outId": "3001",
+        "outNum": 1,
+        "percent": 20
+      },
+      {
+        "outId": "3101",
+        "outNum": 1,
+        "percent": 10
+      },
+      {
+        "outId": "4001",
+        "outNum": 1,
+        "percent": 10
+      },
+      {
+        "outId": "4203",
+        "outNum": 1,
+        "percent": 10
+      }
+    ]
+  },
+  "1003": {
+    "description": "5件掉落1件,重复2次",
+    "allDrop": 0,
+    "dropNum": 2,
+    "repeat": 1,
+    "isGroup": 0,
+    "out": [
+      {
+        "outId": "3002",
+        "outNum": 1,
+        "percent": 20
+      },
+      {
+        "outId": "3101",
+        "outNum": 1,
+        "percent": 20
+      },
+      {
+        "outId": "2002",
+        "outNum": 1,
+        "percent": 30
+      },
+      {
+        "outId": "2006",
+        "outNum": 1,
+        "percent": 30
+      },
+      {
+        "outId": "4203",
+        "outNum": 1,
+        "percent": 10
+      }
+    ]
+  },
+  "10001": {
+    "description": "必掉2个掉落组",
+    "allDrop": 1,
+    "dropNum": 0,
+    "repeat": 1,
+    "isGroup": 1,
+    "out": [
+      {
+        "outId": "1002",
+        "outNum": 1,
+        "percent": 5
+      },
+      {
+        "outId": "1003",
+        "outNum": 1,
+        "percent": 5
+      }
+    ]
+  },
+  "10002": {
+    "description": "选掉1个掉落组",
+    "allDrop": 0,
+    "dropNum": 1,
+    "repeat": 1,
+    "isGroup": 1,
+    "out": [
+      {
+        "outId": "1002",
+        "outNum": 1,
+        "percent": 5
+      },
+      {
+        "outId": "1003",
+        "outNum": 1,
+        "percent": 5
+      }
+    ]
+  }
+}
