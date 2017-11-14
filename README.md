@@ -9,18 +9,18 @@ npm install drop-plugin
 * 在config下新增文件夹drop,在drop文件夹下新增drop.json
 ```
 {
-  "drop-plugin" : {
+  "dropPlugin" : {
     "dropJson"     :   "/app/data/json/drop"  // 指向掉落所需要的json文件
   }
 }
 ```
 * 在app.js配置服务的时候,在需要使用掉落的服务中配置
 ```
-app.use(require('drop-plugin'));
+app.use(require('drop-plugin'), require(app.getBase() + "/config/drop/drop.json"));
 ```
 * 在需要掉落产出的地方,例如:通关奖励,抽卡等功能写下如下代码
 ```
-app.get('drop-plugin').drop('1001');  // '1001'为json数据文件(非配置文件,下文详细说明)中的掉落组id
+app.get('dropPlugin').drop('1001');  // '1001'为json数据文件(非配置文件,下文详细说明)中的掉落组id
 ```
 * 掉落的返回内容如下
 ```
