@@ -1,6 +1,17 @@
 # DropPlugin
 drop item or prize gift in an mobile game,base on pomelo
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Node.js Version][node-version-image]][node-version-url]
+
+[npm-image]: https://img.shields.io/npm/v/drop-plugin.svg
+[npm-url]: https://npmjs.org/package/drop-plugin
+[downloads-image]: https://img.shields.io/npm/dm/drop-plugin.svg
+[downloads-url]: https://npmjs.org/package/drop-plugin
+[node-version-image]: https://img.shields.io/badge/node-%3E6.0.0-brightgreen.svg
+[node-version-url]: https://nodejs.org/en/download/
+
 ### 用途分析
 * 游戏是让玩家花时间或者金钱换取游戏世界中虚拟的东西,那么给用户东西的需求随处可见,几乎伴随着游戏一生.
 * 于是,某做了一个掉落物品的插件,可用于礼包,抽奖,关卡掉落,宝箱开启等相关物品产出的功能的开发.
